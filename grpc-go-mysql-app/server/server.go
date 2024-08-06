@@ -7,7 +7,6 @@ import (
 	"github.com/samyak2405/grpc-go-mysql-app/github.com/samyak2405/grpc-go-mysql-app/proto"
 
 	_ "github.com/go-sql-driver/mysql"
-	//"github.com/samyak2405/grpc-go-mysql-app/proto"
 )
 
 type Server struct {

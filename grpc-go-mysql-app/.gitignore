@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go vendor directory (if you use dep or other vendoring tools)
+vendor/
+
+# Node.js dependencies (if your project has a frontend or uses Node.js tools)
+node_modules/
+
+# Go workspace file
+go.work
+
+# macOS specific
+.DS_Store
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Dependency directories
+**/vendor/
+Godeps/
+
+# Go modules
+go.sum
+go.mod
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+bin/
+out/
